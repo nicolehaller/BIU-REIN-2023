@@ -3,7 +3,7 @@ import math
 
 def find_closest_number(arr, target):
     closest_num = None
-    min_difference = float('inf')  # Initialize the minimum difference to positive infinity
+    min_difference = float('inf')  
     for num in arr:
         if num is not None:
             difference = abs(num - target)
