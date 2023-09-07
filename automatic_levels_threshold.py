@@ -12,7 +12,7 @@ def find_closest_number(arr, target):
                 min_difference = difference
     return closest_num
 
-#source: https://www.geeksforgeeks.org/python-count-occurrences-element-list/
+#source: geeksforgeeks
 def count_occurrences_to_right_from_index(arr, target, start_index): 
     count = 0
     for i in range(start_index+1, len(arr)):
